@@ -5,17 +5,27 @@ import com.skilldistillery.cardgame.Hand;
 import com.skilldistillery.cards.Card;
 
 public class Player {
-	private Hand hand;
-	
+	protected Hand hand;
+
 	public Player() {
 		hand = new BlackjackHand();
 	}
+
+	// make recieve card method
+	public void receiveCard(Card card1) {
+		hand.addCard(card1);
+		
+	}
+
+	public void showHand() {
+		hand.displayHand();
+		System.out.println();
+		
 	
-	//make recieve card method
-	public void receiveCard(Card card) {
-		hand.addCard(card);
 	}
 	
-	
+	public int getHandValue() {
+		return hand.getHandValue();
+	}
 
 }
