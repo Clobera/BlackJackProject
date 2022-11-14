@@ -15,6 +15,6 @@ We were tasked with recreating the game blackjack using java! black jack has two
 <li> Enumerators
 
 
-### what i learned
+### What I learned
 <li> I learned the importance of planning out and saying what i want to do before starting to code. many times i found myself just starting out at random places and getting stuck. Saying what i needed to do then figuring out how that translated to logic helped a lot.
 <li> I also learned that taking breaks is much needed. We had gotten this on Friday and were told that we were ahead so i wanted to take advantage of the time we got but i found myself stuck and frustrated that i didn't understand. the following day when i began to work on it again i figured it out and got the hard part of my project done with.
