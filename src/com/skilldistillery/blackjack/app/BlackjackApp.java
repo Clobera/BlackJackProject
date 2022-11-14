@@ -82,8 +82,8 @@ public class BlackjackApp {
 							if (dealer.getHandValue() > 21) {
 								System.out.println("Dealers Hand: ");
 								dealer.dealersHandrevealed();
-								System.out.println("Dealers Hand value: ");
-								dealer.getHandValue();
+								System.out.println();
+								System.out.println("Dealers Hand value: " + dealer.getHandValue() + " vs. players hand: " + player.getHandValue());
 								System.out.println();
 								System.out.println("**You won! Dealer went over 21.**");
 								System.out.println();
@@ -95,8 +95,7 @@ public class BlackjackApp {
 							if (dealer.getHandValue() > 21) {
 								System.out.println("Dealers Hand: ");
 								dealer.dealersHandrevealed();
-								System.out.println("Dealers Hand value: " + dealer.getHandValue());
-								System.out.println();
+								System.out.println("Dealers Hand value: " + dealer.getHandValue() + " vs. players hand: " + player.getHandValue());								System.out.println();
 								System.out.println("You won! Dealer went over 21.");
 								System.out.println();
 
@@ -110,8 +109,7 @@ public class BlackjackApp {
 								System.out.println();
 
 								if (dealer.getHandValue() > player.getHandValue()) {
-									System.out.println("Dealers Hand value: " + dealer.getHandValue());
-									System.out.println();
+									System.out.println("Dealers Hand value: " + dealer.getHandValue() + " vs. players hand: " + player.getHandValue());									System.out.println();
 									System.out.println("**You Lost. Dealer was closer to 21 without exceeding limit!**");
 									break;
 								} else if (dealer.getHandValue() < player.getHandValue()) {
@@ -120,7 +118,7 @@ public class BlackjackApp {
 									System.out.println("Dealers Hand: ");
 									dealer.dealersHandrevealed();
 									System.out.println();
-									System.out.println("Dealers Hand value: " + dealer.getHandValue());
+									System.out.println("Dealers Hand value: " + dealer.getHandValue() + " vs. players hand: " + player.getHandValue());
 									System.out.println();
 									break;
 								}
